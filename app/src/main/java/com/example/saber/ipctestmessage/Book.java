@@ -27,7 +27,7 @@ public class Book implements Parcelable{
         dest.writeInt(bookId);
         dest.writeString(bookName);
     }
-    public static final Parcelable.Creator<Book> CREATOR = new Parcelable.Creator<Book>(){
+    public static final Creator<Book> CREATOR = new Creator<Book>(){
 
         @Override
         public Book createFromParcel(Parcel source) {

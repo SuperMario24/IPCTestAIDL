@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/IPCTestMessage.iml" filepath="$PROJECT_DIR$/IPCTestMessage.iml" />
+      <module fileurl="file://$PROJECT_DIR$/GitUpdate.iml" filepath="$PROJECT_DIR$/GitUpdate.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
     </modules>
   </component>

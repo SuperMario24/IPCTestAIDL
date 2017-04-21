@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.saber.ipctestmessage">
+    <permission android:name="com.example.saber.ipctestmessage.permission.ACCESS_BOOK_SERVICE"
+        android:protectionLevel="normal"/>
+    <uses-permission android:name="com.example.saber.ipctestmessage.permission.ACCESS_BOOK_SERVICE"
+        />
 
     <application
         android:allowBackup="true"
