@@ -40,3 +40,4 @@ IBinder.DeathRecipient mDeathRecipient = new...重写binderDied方法。重新�
             mRemoteBookManager = null;）
 16.在这个Boolean值的变化的时候不允许在之间插入，保持操作的原子性,用于多线程
     private AtomicBoolean mIsServiceDestotyed = new AtomicBoolean(false);
+17.AIDL的权限认证：1.在onBind中验证，验证失败返回null。2.在服务端的onTransact方法中验证。验证失败返回false。
